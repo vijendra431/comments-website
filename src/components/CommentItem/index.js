@@ -36,7 +36,7 @@ const CommentItem = props => {
               className={`${addLikeclass} button-rows`}
               onClick={onClickIsFavorite}
             >
-              <img className="like-image" src={addImage} /> Like
+              <img className="like-image" src={addImage} alt="like icon" /> Like
             </button>
             <br />
             <button className="delete-button" onClick={onClickDelete}>

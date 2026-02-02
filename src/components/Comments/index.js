@@ -21,7 +21,7 @@ class Comments extends Component {
       id: uuidv4(),
       name,
       comment,
-      isFavorite: false,
+      isFavorite: true,
     }
 
     this.setState({

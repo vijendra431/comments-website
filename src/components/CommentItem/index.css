@@ -1,0 +1,95 @@
+.first-letter {
+  background-color: #f59e0b;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.firstletter-button {
+  background-color: transparent;
+  border: none;
+}
+
+.commentss-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-comment-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-comment-container2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-comment-container3 {
+  display: flex;
+}
+
+.both {
+  display: flex;
+  justify-content: space-between;
+}
+
+.virat {
+  padding-left: 20px;
+}
+
+.harizonal-line {
+  border-style: double;
+  border-width: 1px;
+  border-color: #94a3b8;
+  width: 90vw;
+}
+
+.like-button1 {
+  border: none;
+  background-color: transparent;
+  color: #0b69ff;
+  font-weight: bold;
+  padding: 6px;
+}
+
+.like-button2 {
+  border: none;
+  background-color: transparent;
+  color: #94a3b8;
+  font-weight: bold;
+  padding: 6px;
+}
+
+.like-image {
+  height: 40px;
+  width: 40px;
+}
+
+.delete-button {
+  border: none;
+  background-color: transparent;
+}
+
+.delete-image {
+  height: 40px;
+  width: 40px;
+}
+
+.comment {
+  column-rule: #94a3b8;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.name {
+  color: #1e293b;
+  font-weight: bold;
+  font-family: Bree Serif;
+}
+
+.button-rows {
+  display: flex;
+}

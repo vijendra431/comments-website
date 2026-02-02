@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+.app-container {
+  background-color: white;
+  width: 100%;
+  height: fit-content;
+  padding: 10px;
+}
+
+.container2 {
+  border-radius: 3px;
+}
+
+.heading {
+  color: #1e293b;
+  font-weight: bold;
+  font-family: Bree Serif;
+}
+
+.comment-image {
+  height: 40vh;
+  width: 80vw;
+}
+
+.para {
+  color: #475569;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.input {
+  border-radius: 4px;
+  font-weight: bold;
+  outline: none;
+  border-width: 1px;
+  border-color: #475569;
+  margin-bottom: 10px;
+  padding: 4px;
+}
+.textarea {
+  border-radius: 4px;
+  font-weight: bold;
+  outline: none;
+  border-width: 1px;
+  border-color: #475569;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #0284c7;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.line {
+  color: #cbd2d9;
+  border-style: solid;
+  border-width: 1px;
+  width: 90%;
+  margin: 10px;
+}
+
+.count-heading {
+  color: #475569;
+  font-weight: bold;
+  font-family: Bree Serif;
+}
+
+.count {
+  background-color: #0284c7;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+
+.comments-container {
+  list-style-type: none;
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .app-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .image-container {
+    order: 2;
+  }
+
+  .comment-image {
+    height: 35vh;
+    width: 40vw;
+    padding: 1px;
+  }
+  .para {
+    font-size: 25px;
+  }
+
+  .input {
+    padding: 10px;
+    border-left: double;
+  }
+  .textarea {
+    padding: 10px;
+  }
+
+  .button {
+    padding: 15px;
+    font-size: 20px;
+  }
+
+  .count {
+    padding: 10px;
+  }
+  .count-heading {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .app-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .image-container {
+    order: 2;
+  }
+
+  .comment-image {
+    height: 35vh;
+    width: 40vw;
+    padding: 1px;
+  }
+  .para {
+    font-size: 25px;
+  }
+
+  .input {
+    padding: 10px;
+    border-left: double;
+  }
+  .textarea {
+    padding: 10px;
+  }
+
+  .button {
+    padding: 15px;
+    font-size: 20px;
+  }
+
+  .count {
+    padding: 10px;
+  }
+  .count-heading {
+    font-size: 25px;
+  }
+}
